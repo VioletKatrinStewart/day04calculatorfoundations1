@@ -2,7 +2,7 @@
 import { add } from '../calculations.js';
 import { subtract } from '../calculations.js';
 import { multiply } from '../calculations.js';
-
+import { divide } from '../calculations.js';
 
 const test = QUnit.test;
 
@@ -45,4 +45,13 @@ test('multiply function', (expect) => {
     const expected = 10;
     const actual = multiply(input1, input2);
     expect.equal(actual, expected, 'multiply test');
+});
+
+test('divide function', (expect) => {
+    const input1 = 10;
+    const input2 = 2;
+    const expected = 5;
+    const actual = divide(input1, input2);
+    expect.equal(actual, expected);
+
 });
