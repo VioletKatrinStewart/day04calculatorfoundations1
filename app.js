@@ -1,7 +1,9 @@
 
 import { add } from './calculations.js';
 import { subtract } from './calculations.js';
-console.log(add);
+import { multiply } from './calculations.js';
+
+//console.log(add);
 
 const addInput1 = document.getElementById('add-input-1');
 const addInput2 = document.getElementById('add-input-2');
@@ -29,5 +31,17 @@ subtractButton.addEventListener('click', ()=>{
     const value2 = Number(subtractInput2.value);
     const result = subtract(value1, value2);
     subtractAnswer.textContent = result;
+});
+
+const multiplyInput1 = document.getElementById('multiply-input-1');
+const multiplyInput2 = document.getElementById('multiply-input-2');
+const multiplyButton = document.getElementById('multiply-button');
+const multiplyAnswer = document.getElementById('multiply-answer');
+
+multiplyButton.addEventListener('click', ()=> {
+    const value1 = Number(multiplyInput1.value);
+    const value2 = Number(multiplyInput2.value);
+    const result = multiply(value1, value2);
+    multiplyAnswer.textContent = result;
 });
 
