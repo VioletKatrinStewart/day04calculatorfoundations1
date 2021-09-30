@@ -2,6 +2,7 @@
 import { add } from './calculations.js';
 import { subtract } from './calculations.js';
 import { multiply } from './calculations.js';
+import { divide } from './calculations.js';
 
 //console.log(add);
 
@@ -45,3 +46,14 @@ multiplyButton.addEventListener('click', ()=> {
     multiplyAnswer.textContent = result;
 });
 
+const divideInput1 = document.getElementById('divide-input-1');
+const divideInput2 = document.getElementById('divide-input-2');
+const divideButton = document.getElementById('divide-button');
+const divideAnswer = document.getElementById('divide-answer');
+
+divideButton.addEventListener('click', () => {
+    const value1 = Number(divideInput1.value);
+    const value2 = Number(divideInput2.value);
+    const result = divide(value1, value2);
+    divideAnswer.textContent = result;
+});
