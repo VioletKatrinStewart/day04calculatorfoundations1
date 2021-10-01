@@ -58,11 +58,11 @@ background-color: rgb(142, 226, 184);
 }
 
 #add-input-1 {
-    color: red;
+    color: tomato;
 }
 
 #add-input-2 {
-    color: red
+    color: tomato
 }
 
 #subtract-input-2 {
@@ -87,4 +87,23 @@ background-color: rgb(142, 226, 184);
 
 #divide-input-2 {
     color: teal;
+}
+
+#add-answer {
+    color: tomato;
+}
+#subtract-answer {
+    color: orange;
+}
+
+#multiply-answer {
+    color: yellowgreen;
+}
+
+
+#divide-answer {
+    color: teal;
+}
+* {
+    font-family: 'Pacifico', cursive;
 }
