@@ -7,7 +7,7 @@ main {
 }
 
 .calculation {
-    border: 1px solid black;
+    border: 10px solid thistle;
     padding: 20px;
 
 }
@@ -30,4 +30,61 @@ main {
 .divide {
     border: 5px solid aquamarine;
     padding: 30px;
+}
+
+button {
+    border-radius: 50%;
+}
+
+#add-button:hover {
+    color: red;
+    background-color: lightpink;
+}
+#subtract-button:hover { 
+    color: orange; 
+    background-color: peachpuff;
+
+}
+
+#multiply-button:hover {
+    color: rgb(243, 190, 17);
+    background-color: rgb(241, 231, 172);
+    
+}
+
+#divide-button:hover {
+color: seagreen;
+background-color: rgb(142, 226, 184);
+}
+
+#add-input-1 {
+    color: red;
+}
+
+#add-input-2 {
+    color: red
+}
+
+#subtract-input-2 {
+    color: orange
+}
+
+#subtract-input-1 {
+    color: orange
+}
+
+#multiply-input-1 {
+    color:  yellowgreen;
+}
+
+#multiply-input-2 {
+    color: yellowgreen;
+}
+
+#divide-input-1 {
+    color: teal;
+}
+
+#divide-input-2 {
+    color: teal;
 }
