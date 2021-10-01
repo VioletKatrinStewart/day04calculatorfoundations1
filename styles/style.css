@@ -107,3 +107,9 @@ background-color: rgb(142, 226, 184);
 * {
     font-family: 'Pacifico', cursive;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(197, 130, 197);
+}
